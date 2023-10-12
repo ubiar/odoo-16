@@ -2,10 +2,12 @@
     font-family: LiberationSans;
     src: url('../font/LiberationSans-Bold.woff') format('woff');
     font-weight: bold;
+    font-display: swap;
 }
 @font-face {
     font-family: LiberationSans;
     src: url('../font/LiberationSans-Regular.woff') format('woff');
+    font-display: swap;
 }
 
 $l10n-ch-qr-ratio: 1.25;

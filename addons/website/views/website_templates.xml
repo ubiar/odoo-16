@@ -6,7 +6,6 @@
     <li t-if="submenu.is_visible and not (submenu.child_id or submenu.is_mega_menu)" t-attf-class="#{item_class or ''}">
         <a t-att-href="submenu.clean_url()"
             t-attf-class="#{link_class or ''} #{'active' if submenu.clean_url() and unslug_url(request.httprequest.path) == unslug_url(submenu.clean_url()) else ''}"
-            role="menuitem"
             t-ignore="true"
             t-att-target="'_blank' if submenu.new_window else None">
             <span t-field="submenu.name"/>

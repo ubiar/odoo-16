@@ -13,6 +13,7 @@ $lato-font-path: './lato';
         font-weight: $weight;
         font-style: $style;
         unicode-range: U+0400-04FF, U+0500-052F;
+        font-display: swap;
     }
     // Hebrew: U+0590-05FF, U+FB1D-FB4F
     @font-face {
@@ -23,6 +24,7 @@ $lato-font-path: './lato';
         font-weight: $weight;
         font-style: $style;
         unicode-range: U+0590-05FF, U+FB1D-FB4F;
+        font-display: swap;
     }
     // Arabic: U+0600-06FF, U+0750-077F
     @font-face {
@@ -33,6 +35,7 @@ $lato-font-path: './lato';
         font-weight: $weight;
         font-style: $style;
         unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF;
+        font-display: swap;
     }
 
     @font-face {
@@ -44,6 +47,7 @@ $lato-font-path: './lato';
              url('#{$lato-font-path}/Lato-#{$type}-webfont.svg#Lato') format('svg');
         font-weight: $weight;
         font-style: $style;
+        font-display: swap;
     }
     @font-face {
         font-family: 'Lato-#{$type}';
@@ -52,6 +56,7 @@ $lato-font-path: './lato';
              url('#{$lato-font-path}/Lato-#{$type}-webfont.woff') format('woff'),
              url('#{$lato-font-path}/Lato-#{$type}-webfont.ttf') format('truetype'),
              url('#{$lato-font-path}/Lato-#{$type}-webfont.svg#Roboto') format('svg');
+        font-display: swap;
     }
 }
 

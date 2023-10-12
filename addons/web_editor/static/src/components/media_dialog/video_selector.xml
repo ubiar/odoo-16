@@ -3,7 +3,7 @@
 <div t-name="web_editor.videoWrapper" t-att-data-oe-expression="src">
     <div class="css_editable_mode_display"/>
     <div class="media_iframe_video_size" contenteditable="false"/>
-    <iframe t-att-src="src" frameborder="0" contenteditable="false" allowfullscreen="allowfullscreen"/>
+    <iframe t-att-src="src" frameborder="0" contenteditable="false" allowfullscreen="allowfullscreen" loading="lazy"/>
 </div>
 
 <t t-name="web_editor.VideoOption" owl="1">
